@@ -163,9 +163,9 @@
 
 /*button 12*/
 .ex-12-button:hover .ex-12-top-white{
-    animation: moveTopwhite 2s linear;
+    animation: slidetopw 2s linear;
 }
-@keyframes moveTopwhite {
+@keyframes slidetopw {
     0% {
         left: 10%;
     }
@@ -178,17 +178,19 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: moveTopwhite 2s linear;
+    animation: slidebottomw 2s linear;
 }
-@keyframes moveTopwhite {
+@keyframes slidebottomw {
     0% {
-        left: 10%;
+        right: 10%;
     }
     50% {
-        left: 50%;
+        right: 50%;
     }
     100% {
-        left:10%;
+        right:10%;
     }
 }
 
+/*button 13*/
+.ex-13-button:hover .ex-13-top-white
