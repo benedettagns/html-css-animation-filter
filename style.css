@@ -192,5 +192,55 @@
     }
 }
 
-/*button 13*/
-.ex-13-button:hover .ex-13-top-white
+/*button 13 non funziona
+.ex-13-button:hover .ex-13-top-white {
+    animation: turntopw 2s linear;
+}
+@keyframes turntopw {
+    0% {
+        left: 0%;
+        top: 0%;
+    }
+    25% {
+        left: -20%;
+        top: 20%;
+    }
+    50% {
+        left: -50%;
+        top: 50%;
+    }
+    75% {
+        left: -75%;
+        top: 75%;
+    }
+    100% {
+        left: -100%;
+        top:100%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: turnbottompw 2s linear;
+}
+@keyframes turnbottomw {
+    0% {
+        right: 0%;
+        bottom: 0%;
+    }
+    25% {
+        right: -20%;
+        bottom: 20%;
+    }
+    50% {
+        right: -50%;
+        bottom: 50%;
+    }
+    75% {
+        right: -75%;
+        bottom: 75%;
+    }
+    100% {
+        right: -100%;
+        bottom:100%;
+    }
+}*/
